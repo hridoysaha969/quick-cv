@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Cv - Create Modern CV | Coder Hridoy</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="preview" id="preview">
+        <div class="preview-box">
+            <h2 id="heading">Curriculum Vitae</h2>
+            <ul class="list" id="list">
+                <li>DD/MM/YYYY</li>
+                <li>The mmanaging Director,</li>
+                <li>123 road main office, London</li><br>
+                <li>Subject: (your subject)</li><br>
+                <li>Dear Sir,</li><br>
+                <li class="list-item">(Application body)</li><br>
+                <li>Your obediently,</li>
+                <li>Your name</li>
+            </ul>
+            <p id="bio-data"></p>
+            <button class="btn-con" id="confirm">Confirm</button>
+            <button class="btn-res" id="reset">Modify</button>
+        </div>
+    </div>
+
+
+    <section class="top-section">
+        <div class="container page-one">
+            <div class="heading">
+                <h2>Submit your information</h2>
+                <p>Make an online Biodata for better purpose</p>
+            </div>
+
+            <div class="form-group">
+                <form id="form">
+                    <div class="input-wrap">
+                        <label for="name">Your name</label>
+                        <input type="text" id="name" name="Name" placeholder="Your Name">
+                        <div class="valid">Please Provide Your Name</div>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="fname">Your father's name</label>
+                        <input type="text" id="fname" name="Father's Name" placeholder="Your Father's Name">
+                        <div class="valid">Please Provide Your Father's Name</div>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="mname">Your mother's name</label>
+                        <input type="text" id="mname" name="Mother's Name" placeholder="Your Mother's Name">
+                        <div class="valid">Please Provide Your Mother's Name</div>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="addone">Permanent address</label>
+                        <input type="text" id="addone" name="Permanent Address" placeholder="Address Line 1">
+                        <div class="valid">Please Provide Your Address</div>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="addtwo">Present address</label>
+                        <input type="text" id="addtwo" name="Present Address" placeholder="Address Line 2">
+                        <div class="valid">Please Provide Your Address</div>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="country">Select Country</label>
+                        <input type="text" id="country" name="Country" placeholder="Your Name">
+                        <div class="valid">Please Provide Your Country</div>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="date">Date of birth</label>
+                        <input type="date" id="date" name="DOB" placeholder="DD/MM/YYYY">
+                        <div class="valid">Please Provide Your Birth Date</div>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="mobile">Mobile or Telephone</label>
+                        <input type="text" id="mobile" name="Contact" placeholder="Your Name">
+                        <div class="valid">Please Provide Your Country</div>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="marital">Marital status</label>
+                        <select id="marital" name="Marital Status">
+                            <option value="">Select</option>
+                            <option value="Married">Married</option>
+                            <option value="Unmarried">Unmarried</option>
+                        </select>
+                        <div class="valid">Please Provide Your Marital Status</div>
+                    </div>
+                    <div class="btn-wrap">
+                        <input type="submit" id="sub" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
